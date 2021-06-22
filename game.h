@@ -13,6 +13,4 @@ int pve(char field[], int len);
 
 int eve(char field[], int len);
 
-
-
 #endif

@@ -126,7 +126,7 @@ int pve(char field[], int len) {
                 break;
             case 2:
                 system("clear");
-                return 3;       //remis
+                return 3;       //draw
         }
         system("clear");
 
@@ -156,7 +156,7 @@ int eve(char field[], int len) {
                 break;
             case 2:
                 system("clear");
-                return 3;       //remis
+                return 3;       //draw
                 break;
             default:
                 system("clear");
