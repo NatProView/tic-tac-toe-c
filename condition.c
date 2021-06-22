@@ -6,12 +6,8 @@
 #include "game.h"
 
 int check(char field[], int len) {
-    //if (isDraw(field, len)) {
-    //    return 2; //gra zakonczona remisem
-    //} else 
 
-
-    if (field[1] == field[2] && field[2] == field[3]) { //poziomo 1 2 3             jezeli ktos wygral zwroc 1
+    if (field[1] == field[2] && field[2] == field[3]) { //poziomo 1 2 3 \
             return 1;
         } else if (field[4] == field[5] && field[5] == field[6]) { //poziomo 4 5 6
             return 1;
@@ -27,8 +23,8 @@ int check(char field[], int len) {
             return 1;
         } else if (field[3] == field[5] && field[5] == field[7]) { //przekatnie 3 5 7
             return 1;
-        } else if (field[1] != '1' && field[2] != '2' && field[3] != '3' && //TODO: ZROBIC LADNIEJSZA WERSJE TEGO
-            field[4] != '4' && field[5] != '5' && field[6] != '6' &&        //DZIALA ALE IRYTUJE MNIE SWOIM BYTEM
+        } else if (field[1] != '1' && field[2] != '2' && field[3] != '3' && 
+            field[4] != '4' && field[5] != '5' && field[6] != '6' &&        
             field[7] != '7' && field[8] != '8' && field[9] != '9') {
             return 2;
         }else {
