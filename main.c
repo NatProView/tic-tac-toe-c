@@ -6,12 +6,6 @@
 #include "game.h"
 #include "condition.h"
 
-// popraw AI vs AI, something is wrong
-// podczas remisu komunikat o wygranej X
-// mozliwe ze podczas wygranej O tez XD
-// screen zrobiony jbc
-
-
 void hello();
 int choice();
 
